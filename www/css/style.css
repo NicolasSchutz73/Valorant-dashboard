@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ************************* */
+/* font */
+/* color */
+/* typographie */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #10061E;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  color: #FFFEFE;
+  margin-bottom: 0.938rem;
+}
+
+span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 141.69%;
+  color: #FFFEFE;
+}
+
+p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 141.69%;
+  color: #FFFEFE;
+}
+
+button {
+  border-radius: 4px;
+  color: #FFFEFE;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 141.69%;
+  cursor: pointer;
+}
+
+.btn-red {
+  width: 136px;
+  height: 50px;
+  background: rgba(252, 71, 84, 0.91);
+  border: none;
+}
+
+.btn-border {
+  width: 136px;
+  height: 50px;
+  border: 2px solid rgba(252, 71, 84, 0.55);
+  background: none;
+}
+
+/********************/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.063rem 4rem 0 3.875rem;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav .links span {
+  margin-right: 3.375rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 5.5rem 4rem 0 3.875rem;
+}
+main .left {
+  display: flex;
+  flex-direction: column;
+}
+main .left .title {
+  max-width: 487px;
+}
+main .left p {
+  margin-bottom: 1.813rem;
+}
+main .left .row-btn {
+  margin-bottom: 4.688rem;
+}
+main .left .row-btn > :first-child {
+  margin-right: 1.563rem;
+}
+main .left .numbers {
+  display: flex;
+}
+main .left .numbers .column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.688rem;
+  border-right: 2px solid rgba(255, 255, 255, 0.7);
+  padding-right: 12px;
+}
+main .left .numbers .column > :first-child {
+  font-size: 28px;
+  line-height: 141.69%;
+}
+main .left .numbers .column > span:nth-of-type(2) {
+  color: rgba(255, 255, 255, 0.7);
+}
+main .right {
+  position: relative;
+  width: 534px;
+  display: flex;
+  justify-content: flex-end;
+}
+main .right .illustration {
+  width: 318px;
+  height: 391px;
+  background-image: url("../img/illustration.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .right .bid {
+  position: absolute;
+  bottom: 20%;
+  left: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 417px;
+  height: 84px;
+  background: linear-gradient(91.03deg, rgba(255, 254, 254, 0.23) -47.11%, rgba(255, 254, 254, 0.23) 110.32%);
+  backdrop-filter: blur(30px);
+  border-radius: 5px;
+}
+main .right .bid .column {
+  display: flex;
+  flex-direction: column;
+}
+main .right .bid .column > :first-child {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.375rem;
+}
+
+/*# sourceMappingURL=style.css.map */
